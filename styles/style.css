@@ -1,0 +1,6 @@
+@import "./import.css";
+
+h1{
+    color: var(--school-bus-yellow);
+    font-family: var(--font-title);
+}
