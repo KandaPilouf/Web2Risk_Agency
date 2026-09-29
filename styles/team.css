@@ -11,14 +11,8 @@
   list-style-type: none;
   padding: 20px;
 
-  scroll-snap-align: center;
-
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  column-gap: 24px;
-  row-gap: 32px;
-  align-content: start;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 #team1 {
@@ -34,9 +28,13 @@
 
 #team1 img {
   width: 100%;
+  filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.1));
 }
 
 #team1 p {
-  grid-column: 5/7;
-  margin: 0;
+  grid-column: 4/7;
+}
+
+#team_description{
+  padding: 2rem;
 }
