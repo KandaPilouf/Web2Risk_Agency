@@ -1,6 +1,15 @@
 @import "./import.css";
 
-h1{
-    color: var(--school-bus-yellow);
-    font-family: var(--font-title);
+/* RESET AND DEFAULT VALUE */
+
+* {
+  font-family: var(--font-text);
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }

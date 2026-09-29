@@ -1,0 +1,42 @@
+#team ul {
+  width: 100vw;
+  padding: 20px;
+  display: flex;
+  gap: 4vw;
+
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+#team li {
+  list-style-type: none;
+  padding: 20px;
+
+  scroll-snap-align: center;
+
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 24px;
+  row-gap: 32px;
+  align-content: start;
+  overflow: hidden;
+}
+
+#team1 {
+  width: 100vw;
+}
+
+#team1 figure {
+  height: 100%;
+  width: 100%;
+  grid-column: 1/4;
+  margin: 0;
+}
+
+#team1 img {
+  width: 100%;
+}
+
+#team1 p {
+  grid-column: 5/7;
+  margin: 0;
+}
